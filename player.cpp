@@ -25,7 +25,7 @@ Player::Player()
 
 void Player::keyPressEvent(QKeyEvent *event)
 {
-    qDebug() << event->key();
+    //qDebug() << event->key();
     if(event->key() == upKey){
         upKeyPressed = true;
     }else if(event->key() == downKey){
