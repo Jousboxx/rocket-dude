@@ -1,11 +1,16 @@
 # rocket-dude
 2D space shooter with a complete disregard for efficiency and realism
 
-Instructions for how to get this running mostly for myself in the future for when I inevitably forget how this works, but also for anyone who wants to try it
+Loosely based on this: https://www.khanacademy.org/computer-programming/rocket-dude/5036049649369088
 
-1) Get Qt (the open source version)
-https://www.qt.io/download
+Instructions for how to get this running mostly for myself in the future for when I inevitably forget how this works, but also for anyone who wants to try it:
 
-2) Open rocketDude2.pro in Qt creator
+sudo apt-get install qt5-default
 
-3) Click the play button in the lower left corner
+qmake rocketDude2.pro
+
+make
+
+./rocketDude2
+
+WASD to move, A and D at the same time for turbo, up and down arrows to fire.
