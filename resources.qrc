@@ -1,0 +1,19 @@
+<RCC>
+    <qresource prefix="/images">
+        <file>shippy.png</file>
+        <file>high.png</file>
+        <file>low.png</file>
+        <file>off.png</file>
+        <file>turbo.png</file>
+        <file>energyBoost.png</file>
+        <file>asteroid.png</file>
+        <file>laser.png</file>
+        <file>asteroidShard.png</file>
+        <file>boostParticle.png</file>
+        <file>missle.png</file>
+        <file>missleIndicator.png</file>
+        <file>ufo.png</file>
+        <file>ufoShard.png</file>
+        <file>ufoBullet.png</file>
+    </qresource>
+</RCC>
