@@ -18,9 +18,10 @@ class Game: public QObject
 public:
     static const int gameWidth = 1600;
     static const int gameHeight = 900;
-
-    static const bool unlimitedPower = true;
-    static const bool backWall = true;
+    
+    //cheats
+    static const bool unlimitedPower = false;
+    static const bool backWall = false;
 
     static const int energyBoostRegularity = 50;
     static const int asteroidRegularity = 50;
